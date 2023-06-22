@@ -1,0 +1,50 @@
+
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #fff;
+  }
+
+  .navbar-nav .nav-link.active{
+    color: rgb(14, 187, 72); 
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .pro-image {
+    border-radius: 50%;
+    width: 50px;
+    
+
+  }
+  .navbar-nav a {
+    margin-right: 30px;
+  }
+  .imgBtn a,img{
+    margin-right: 30px;
+  }
+
+  
+
+  .imgBtn{
+    display: flex;
+  }
+
+
+  /* responsive */
+
+  @media only screen and (max-width: 576px) {
+    .imgBtn ,.logReg{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+  }
+    
+  
+  
+
+ 
